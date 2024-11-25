@@ -1,0 +1,75 @@
+/* Définition des couleurs */
+:root {
+    --beige: #f5f5dc;
+    --rose: #f1c6d9;
+    --green: #80c7a1;
+    --dark-green: #4d7c52;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--beige);
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--rose);
+    color: var(--white);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: var(--dark-green);
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    color: var(--black);
+}
+
+/* Liste des actions disponibles */
+ul {
+    list-style-type: none;
+    padding: 15;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--green);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+a.btn:hover {
+    background-color: var(--dark-green);
+}
